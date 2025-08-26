@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>SuaraMerdeka</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            background-color: #f0f0f0;
+            height: 100px;
+            border-bottom: 1px solid #ccc;
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        .header img {
+            height: 80px;
+        }
+
+        .container {
+            display: flex;
+            height: calc(100vh - 100px);
+        }
+
+        .sidebar {
+            width: 200px;
+            background-color: #54d7ff;
+            border-right: 1px solid #5a48ff;
+            padding: 20px;
+        }
+
+        .sidebar h3 {
+            margin-top: 0;
+        }
+
+        .sidebar a {
+            display: block;
+            margin: 10px 0;
+            text-decoration: none;
+            color: purple;
+        }
+
+        .content {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .gallery-item {
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+        }
+
+        .gallery-item a {
+            text-decoration: none;
+            color: blue;
+            display: block;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <img src="E:\suaramerdeka.com.png" alt="Logo">
+    </div>
+
+    <div class="container">
+        <div class="sidebar">
+            <h3>Daftar Menu</h3>
+            <a href="#">Toyota Pasarkan FJ Cruiser untuk Konsumen Jepang</a>
+            <a href="#">Ular Kobra" Berkeliaran di Jalan Raya</a>
+            <a href="#">Honda Masuk Sekolah-Sekolah Kejuruan</a>
+            <a href="#">Peugeot 5008 Dipasarkan Rp 475,5 Juta</a>
+        </div>
+
+        <div class="content">
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="E:\toyota.jpg" alt="Toyota FJ Cruiser">
+                    <a href="isi mobil kkonsumen jepang .html">• Toyota Pasarkan FJ Cruiser untuk Konsumen Jepang</a>
+                </div>
+                <div class="gallery-item">
+                    <img src="E:\cobra.jpg" alt="Ular Kobra Motor">
+                    <a href="isi ular kobra .html">• "Ular Kobra" Berkeliaran di Jalan Raya</a>
+                </div>
+                <div class="gallery-item">
+                    <img src="E:\honda.jpg" alt="Honda di Sekolah">
+                    <a href="isi honda masuk smk.html">• Honda Masuk Sekolah-Sekolah Kejuruan</a>
+                </div>
+                <div class="gallery-item">
+                    <img src="E:\pigeot.jpg" alt="Peugeot 5008">
+                    <a href="isi pengusaha 2.html">• Peugeot 5008 Dipasarkan Rp 475,5 Juta</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
